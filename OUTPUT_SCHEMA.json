@@ -1,0 +1,28 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Licitaciones activas",
+      "transformation": {
+        "fields": [
+          "objeto_contrato",
+          "organo_contratacion",
+          "fecha_fin_presentacion_iso",
+          "estado_texto",
+          "url_licitacion"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {
+          "objeto_contrato":            { "label": "Objeto del contrato", "format": "text" },
+          "organo_contratacion":        { "label": "Órgano de contratación", "format": "text" },
+          "fecha_fin_presentacion_iso": { "label": "Fecha límite", "format": "text" },
+          "estado_texto":               { "label": "Estado", "format": "text" },
+          "url_licitacion":             { "label": "Enlace", "format": "link" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "actorSpecification": 1,
+    "name": "spain-public-tenders-scraper-placsp",
+    "title": "Spain Public Tenders Scraper — PLACSP Official Feed",
+    "description": "Get today's active public tenders from Spain's official PLACSP platform. Filter by keyword, contract type, or CPV code across 15,000+ contracting authorities. Built as a tool for AI agents via MCP. No browser needed.",
+    "version": "0.0",
+    "dockerfile": "./Dockerfile",
+    "input": "./INPUT_SCHEMA.json",
+    "storages": {
+        "dataset": "./OUTPUT_SCHEMA.json"
+    },
+    "minMemoryMbytes": 256,
+    "maxMemoryMbytes": 1024,
+    "categories": ["AGENTS", "OPEN_SOURCE", "GOVERNMENT_DATA"]
+}

@@ -1,0 +1,12 @@
+{
+    "actor-start": {
+        "eventTitle": "Actor start",
+        "eventDescription": "Charged once when the run starts.",
+        "eventPriceUsd": 0.01
+    },
+    "result": {
+        "eventTitle": "Tender result",
+        "eventDescription": "Charged per tender returned in the dataset.",
+        "eventPriceUsd": 0.001
+    }
+}
