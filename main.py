@@ -76,126 +76,126 @@ DICCIONARIO: dict[str, dict] = {
     "obras": {
         "semilla": ["obra", "obras", "construcción"],
         "variantes": ["obra civil", "urbanización", "carretera", "rehabilitación", "pavimentación"],
-        "cpv_relacionados": ["4523", "4521", "4511"],
+        "cpv_prefijos": ["4523", "4521", "4511"],
         "negativas": ["mantenimiento", "redacción", "asistencia técnica"]
     },
     "infraestructura": {
         "semilla": ["infraestructura", "obra", "obras"],
         "variantes": ["obra civil", "vial", "carretera", "ferroviario", "puerto"],
-        "cpv_relacionados": ["4523", "4521", "6311"],
+        "cpv_prefijos": ["4523", "4521", "6311"],
         "negativas": ["mantenimiento", "redacción", "consultoría"]
     },
     # TOP 2
     "inteligencia artificial": {
         "semilla": ["inteligencia artificial", "IA", "machine learning"],
         "variantes": ["transformación digital", "automatización", "algoritmo", "datos", "GovTech"],
-        "cpv_relacionados": ["7226", "4800", "7320"],
+        "cpv_prefijos": ["7226", "4800", "7320"],
         "negativas": ["mantenimiento", "formación básica", "soporte"]
     },
     "govtech": {
         "semilla": ["govtech", "digitalización", "tecnología"],
         "variantes": ["administración digital", "plataforma digital", "e-gobierno", "smart city", "datos abiertos"],
-        "cpv_relacionados": ["7226", "4800", "7200"],
+        "cpv_prefijos": ["7226", "4800", "7200"],
         "negativas": ["mantenimiento", "impresión", "papelería"]
     },
     "tecnología": {
         "semilla": ["tecnología", "sistemas", "software"],
         "variantes": ["transformación digital", "plataforma", "aplicación", "digitalización", "cloud"],
-        "cpv_relacionados": ["4800", "7200", "3200"],
+        "cpv_prefijos": ["4800", "7200", "3200"],
         "negativas": ["mantenimiento", "soporte básico", "impresión"]
     },
     # TOP 3
     "defensa": {
         "semilla": ["defensa", "armamento", "militar"],
         "variantes": ["sistema de armas", "vehículo militar", "munición", "equipamiento militar", "ejército"],
-        "cpv_relacionados": ["3500", "7500", "3510"],
+        "cpv_prefijos": ["3500", "7500", "3510"],
         "negativas": ["mantenimiento", "formación", "consultoría"]
     },
     "armamento": {
         "semilla": ["armamento", "armas", "munición"],
         "variantes": ["sistema de armas", "vehículo blindado", "artillería", "misil", "defensa"],
-        "cpv_relacionados": ["3510", "3500", "3560"],
+        "cpv_prefijos": ["3510", "3500", "3560"],
         "negativas": ["mantenimiento", "limpieza", "formación"]
     },
     "seguridad": {
         "semilla": ["seguridad", "vigilancia", "protección"],
         "variantes": ["guardia de seguridad", "control de acceso", "videovigilancia", "alarma", "custodia"],
-        "cpv_relacionados": ["7971", "3500", "3523"],
+        "cpv_prefijos": ["7971", "3500", "3523"],
         "negativas": ["salud laboral", "prevención de riesgos", "formación"]
     },
     # TOP 4
     "hidrógeno": {
         "semilla": ["hidrógeno", "energía verde", "renovable"],
         "variantes": ["hidrógeno verde", "electrolizador", "pila de combustible", "NextGenerationEU", "descarbonización"],
-        "cpv_relacionados": ["0933", "0900", "4521"],
+        "cpv_prefijos": ["0933", "0900", "4521"],
         "negativas": ["gas natural", "combustible fósil", "mantenimiento"]
     },
     "energía": {
         "semilla": ["energía", "renovable", "solar"],
         "variantes": ["fotovoltaico", "eólico", "paneles solares", "aerogenerador", "batería"],
-        "cpv_relacionados": ["0933", "3140", "0900"],
+        "cpv_prefijos": ["0933", "3140", "0900"],
         "negativas": ["gas natural", "petróleo", "mantenimiento"]
     },
     "solar": {
         "semilla": ["solar", "fotovoltaico", "paneles"],
         "variantes": ["panel solar", "instalación solar", "energía solar", "placa solar", "autoconsumo"],
-        "cpv_relacionados": ["0933", "3140", "4521"],
+        "cpv_prefijos": ["0933", "3140", "4521"],
         "negativas": ["mantenimiento", "limpieza", "estudio"]
     },
     # TOP 5
     "sanidad": {
         "semilla": ["sanidad", "hospital", "salud"],
         "variantes": ["equipamiento médico", "dispositivo médico", "clínica", "centro de salud", "ambulancia"],
-        "cpv_relacionados": ["3300", "8500", "3310"],
+        "cpv_prefijos": ["3300", "8500", "3310"],
         "negativas": ["formación", "consultoría", "limpieza"]
     },
     "hospital": {
         "semilla": ["hospital", "clínica", "sanitario"],
         "variantes": ["equipamiento hospitalario", "quirófano", "UCI", "radiología", "laboratorio clínico"],
-        "cpv_relacionados": ["3300", "3310", "3312"],
+        "cpv_prefijos": ["3300", "3310", "3312"],
         "negativas": ["mantenimiento", "limpieza", "catering"]
     },
     # Resto de sectores
     "ciberseguridad": {
         "semilla": ["ciberseguridad", "seguridad informática", "hacking"],
         "variantes": ["firewall", "SOC", "SIEM", "pentesting", "seguridad cloud"],
-        "cpv_relacionados": ["7226", "4800", "3523"],
+        "cpv_prefijos": ["7226", "4800", "3523"],
         "negativas": ["mantenimiento", "formación básica", "antivirus básico"]
     },
     "educación": {
         "semilla": ["educación", "formación", "enseñanza"],
         "variantes": ["formación profesional", "universidad", "colegio", "e-learning", "capacitación"],
-        "cpv_relacionados": ["8000", "7200", "3000"],
+        "cpv_prefijos": ["8000", "7200", "3000"],
         "negativas": ["mantenimiento", "limpieza", "catering"]
     },
     "facility": {
         "semilla": ["facility", "mantenimiento", "edificio"],
         "variantes": ["mantenimiento integral", "gestión de instalaciones", "limpieza edificios", "climatización", "ascensores"],
-        "cpv_relacionados": ["5000", "9000", "4521"],
+        "cpv_prefijos": ["5000", "9000", "4521"],
         "negativas": ["obra nueva", "construcción", "demolición"]
     },
     "transporte": {
         "semilla": ["transporte", "flota", "vehículo"],
         "variantes": ["transporte público", "autobús", "tren", "flota municipal", "movilidad"],
-        "cpv_relacionados": ["6000", "3400", "6311"],
+        "cpv_prefijos": ["6000", "3400", "6311"],
         "negativas": ["mantenimiento", "reparación", "estudio"]
     },
     "medio ambiente": {
         "semilla": ["medio ambiente", "residuos", "agua"],
         "variantes": ["gestión de residuos", "depuradora", "reciclaje", "limpieza viaria", "parque natural"],
-        "cpv_relacionados": ["9000", "4100", "7700"],
+        "cpv_prefijos": ["9000", "4100", "7700"],
         "negativas": ["consultoría", "estudio", "redacción"]
     },
     "limpieza": {
         "semilla": ["limpieza", "higiene", "desinfección"],
         "variantes": ["limpieza viaria", "recogida de basuras", "limpieza de edificios", "gestión de residuos", "saneamiento"],
-        "cpv_relacionados": ["9000", "3900", "9010"],
+        "cpv_prefijos": ["9000", "3900", "9010"],
         "negativas": ["productos de limpieza", "suministro", "estudio"]
     },
     "consultoría": {
         "semilla": ["consultoría", "ingeniería", "arquitectura"],
         "variantes": ["dirección de obra", "proyecto técnico", "asistencia técnica", "redacción de proyecto", "estudio"],
-        "cpv_relacionados": ["7100", "7300", "7900"],
+        "cpv_prefijos": ["7100", "7300", "7900"],
         "negativas": ["obra", "construcción", "suministro"]
     },
 }
@@ -472,7 +472,7 @@ def motor_decision(records, keyword, tipo_contrato, cpv):
                 "activo": True,
                 "termino_base": keyword,
                 "variantes_aplicadas": dic_entry.get("variantes", []),
-                "cpv_sugeridos": dic_entry.get("cpv_relacionados", []),
+                "cpv_sugeridos": dic_entry.get("cpv_prefijos", []),
                 "negativas_aplicadas": dic_entry.get("negativas", [])
             }
 
